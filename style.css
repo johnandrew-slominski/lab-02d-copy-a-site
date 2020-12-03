@@ -1,0 +1,100 @@
+.body {
+    
+}
+/*
+.topbar {
+    background-size: 100% 100%;
+    background-color: lightblue;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    height: 46px;
+    position: absolute;
+    width: 100%;
+    text-align:center;
+   }
+*/
+
+.outside {
+    border-style: solid;
+    border-color: white;;
+    width: 100%;
+    display: flex;
+
+}
+.left {
+    width: 545px;
+    height: 500px;
+    background-color: lightblue;
+    background-image: url(https://logos-download.com/wp-content/uploads/2016/02/Twitter_Logo_new-700x569.png)
+
+}
+
+.see-whats-happening {
+
+    display: flex;
+    font-family: "Segoe UI" ,Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    top: 50%;
+    padding: 10%;
+}
+
+.Join {
+    font-size: 1rem;
+
+}
+
+.signup {
+    display: flex;
+    position: relative;
+}
+
+
+.list {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 5em;
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    justify-content: center;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 3px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    width: 1000px;
+    position: center;
+    color: grey; 
+    grid-template-areas:
+      "About Help-Center Terms-of-Service Privacy-Policy"
+      "Cookie-Policy Ads-info Blog Status"
+      "Careers Brand-Resources Advertising Marketing";
+    grid-template-columns: auto auto auto auto;
+}
+
+  .About { grid-area: About; }
+  .Help-Center { grid-area: Help-Center; }
+  .Terms-of-Service { grid-area: Terms-of-Service; }
+  .Privacy-Policy { grid-area: Privacy-Policy; }
+  .Cookie-Policy { grid-area: Cookie-Policy; }
+  .Ads-info { grid-area: Ads-info; }
+  .Blog { grid-area: Blog; }
+  .Status { grid-area: Status; }
+  .Careers { grid-area: Careers; }
+  .Brand-Resources { grid-area: Brand-Resources; }
+  .Advertising { grid-area: Advertising; }
+  .Marketing { grid-area: Marketing; }
+
+}
